@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/xingcheng"
+            android:icon="@mipmap/xingcheng"
+            android:title="    行程"/>
+        <item
+            android:id="@+id/anquan"
+            android:title="    安全"
+            android:icon="@mipmap/anquan"/>
+        <item
+            android:id="@+id/qianbao"
+            android:title="    钱包"
+            android:icon="@mipmap/qianbao"/>
+        <item
+            android:id="@+id/shezhi"
+            android:title="    设置"
+            android:icon="@mipmap/shezhi"/>
+        <item
+            android:id="@+id/kefu"
+            android:title="    客服"
+            android:icon="@mipmap/kefu" />
+
+    </group>
+</menu>

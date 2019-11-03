@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/llBlno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dip"
+        android:layout_marginRight="2dip"
+        android:layout_marginTop="2dip"
+        android:orientation="vertical"
+        android:background="@drawable/background_of_listview">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:layout_marginTop="15dip"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvCargono"
+                android:layout_width="170dp"
+                android:layout_height="20dp"
+                android:gravity="left"
+                android:text="路线："
+                />
+            <TextView
+                android:id="@+id/tvVariety"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="剩余空位："
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvMarkno"
+                android:layout_width="170dp"
+                android:layout_height="20dp"
+                android:gravity="left"
+                android:text="车辆信息："
+                />
+            <TextView
+                android:id="@+id/tvSpec"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="车牌号："
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvKgs"
+                android:layout_width="170dp"
+                android:layout_height="20dp"
+                android:gravity="start"
+                android:text="发车日期："
+                />
+            <TextView
+                android:id="@+id/tvNet"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="发车时间："
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:layout_marginTop="24dip"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/riding"
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="2dp"
+                android:text="搭乘该车"
+                android:background="@drawable/button_of_listview"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

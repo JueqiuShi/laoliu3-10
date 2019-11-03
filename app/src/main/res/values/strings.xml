@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Taxi</string>
+    <string name="user_phone_number">手机号码</string>
+
+    <string name="phonenumber">账号</string>
+    <string name="inputphonenumber">请输出账号</string>
+    <string name="password">密码</string>
+    <string name="inputpassword">请输出密码</string>
+    <string name="login">登录</string>
+    <string name="getpasswordback">取回密码</string>
+    <string name="phonefastlogin">手机号码快速登录</string>
+    <string name="register">注册</string>
+    <string name="QQ">QQ</string>
+    <string name="weixin">微信</string>
+    <string name="sina">新浪微博</string>
+    <string name="elselogin">更多</string>
+    <string name="title">广石化出行</string>
+    <string name="a">官渡校区</string>
+    <string name="b">西城校区</string>
+    <string name="loading" >正在加载..</string>
+    <string name="text_boy">官渡校区</string>
+    <string name="text_nothing">这个人很懒...</string>
+    <string name="text_editor_success">修改成功</string>
+    <string name="text_editor_failure">修改失败</string>
+    <string name="text_tost_empty">输入为空</string>
+    <string name="text_version">版本：</string>
+    <string name="text_update">检查更新</string>
+    <string name="text_back_t">请提出您的宝贵意见...</string>
+    <string name="text_back_ok">点击提交</string>
+
+</resources>

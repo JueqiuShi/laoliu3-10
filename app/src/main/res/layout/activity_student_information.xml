@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="#009688"
+        android:text="乘客完善资料"
+        android:textSize="18dp" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="请输入您的真实姓名："
+       />
+
+    <EditText
+        android:layout_marginLeft="18dp"
+        android:id="@+id/sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:gravity="top|left"
+        android:hint="请输入您的性别："
+        android:textSize="20dp"
+        android:layout_marginRight="18dp"/>
+
+
+    <EditText
+        android:layout_marginLeft="18dp"
+        android:id="@+id/classno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="请输入您的班级："
+        android:textSize="20dp"
+        android:layout_marginRight="18dp"/>
+    <EditText
+        android:layout_marginLeft="18dp"
+        android:id="@+id/schoolno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:gravity="top|left"
+        android:hint="请输入您的学号："
+        android:textSize="20dp"
+        android:layout_marginRight="18dp"/>
+    <EditText
+        android:layout_marginLeft="18dp"
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:gravity="top|left"
+        android:hint="请输入您的手机号码："
+        android:textSize="20sp"
+        android:layout_marginRight="18dp"/>
+    <EditText
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:id="@+id/urgenttel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:gravity="top|left"
+        android:hint="请输入紧急联系人手机号码："
+        android:textSize="20sp">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        //点击获取相册权限，用户选择照片上传
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:src="@android:drawable/ic_menu_gallery" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView">
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textSize="18sp"
+                android:text="         ⬆点击图标上传学生卡图片进行验证⬆         " />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/button"
+            android:layout_width="203dp"
+            android:layout_height="59dp"
+            android:layout_weight="1"
+            android:text="返回" />
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/button1"
+            android:layout_width="203dp"
+            android:layout_height="59dp"
+            android:background="#FF8C00"
+            android:text="提交"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:weightSum="1">
+    <TextView
+        android:text="请选择你的职业"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tips"
+        android:textColor="#1296db"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_weight="0.25" />
+
+    <Button
+        android:text="司机"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_height="46dp"
+        android:id="@+id/button_driver"
+        android:layout_marginTop="150dp"
+        android:textSize="22sp"
+        android:background="@drawable/login_button_bg"
+        android:textColor="@color/smssdk_white"
+        android:layout_weight="0.02" />
+
+    <Button
+        android:text="学生"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_height="46dp"
+        android:id="@+id/button_student"
+        android:layout_marginTop="50dp"
+        android:textSize="22sp"
+        android:background="@drawable/login_button_bg"
+        android:textColor="@color/smssdk_white"
+        android:layout_weight="0.02" />
+</LinearLayout>
